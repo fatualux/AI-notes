@@ -15,7 +15,7 @@ It consists of interconnected layers of nodes (neurons), which work together to 
 
 ### Connections and Weights:
 
-Each connection between neurons has an associated weight, which adjusts as the network learns.
+Each connection between neurons has an associated [weight](../llm/weights.md), which adjusts as the network learns.
 Neurons apply an activation function to the weighted sum of their inputs to introduce non-linearity and help the network learn complex patterns.
 
 ### Activation Functions:

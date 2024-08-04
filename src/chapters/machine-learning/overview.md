@@ -14,11 +14,11 @@
 
 ### Key Components:
 
-**Datasets**: The data used for training and evaluating the model, often split into training, validation, and test sets.
+[**Datasets**](../llm/datasets.md): The data used for training and evaluating the model, often split into training, validation, and test sets.
 
 **Features**: The input variables or attributes used by the model to make predictions.
 
-**Model**: The mathematical representation that learns from data and makes predictions.
+[**Model**](../llm/overview.md): The mathematical representation that learns from data and makes predictions.
 
 **Training**: The process of optimizing the model's parameters using data.
 
@@ -34,7 +34,7 @@
 
 **Support Vector Machines (SVM)**: A classifier that finds the optimal hyperplane separating different classes.
 
-**Neural Networks**: Computational models inspired by the human brain, consisting of layers of interconnected nodes (neurons).
+[**Neural Networks**](../machine-learning/neural-networks.md): Computational models inspired by the human brain, consisting of layers of interconnected nodes (neurons).
 
 **k-Nearest Neighbors (k-NN)**: A simple, instance-based learning algorithm that classifies based on the majority class among the k nearest data points.
 

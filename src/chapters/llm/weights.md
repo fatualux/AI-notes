@@ -26,12 +26,6 @@ In the context of neural networks and machine learning, weights are the paramete
 
 **Regularization**: Techniques like L1 and L2 regularization add penalties to the loss function based on the size of the weights, helping to prevent overfitting by encouraging smaller weights.
 
-### Challenges
-
-**Vanishing and Exploding Gradients**: In deep networks, gradients can become very small (vanish) or very large (explode), making training difficult. Proper initialization and normalization techniques can mitigate these issues.
-
-**Overfitting**: Large weights can cause the model to fit the training data too closely, capturing noise rather than general patterns. Regularization techniques help to control this.
-
 ### Applications
 
 **Feature Learning**: Weights capture the features learned by the network during training. Early layers learn simple features (e.g., edges in images), while deeper layers learn complex features (e.g., object parts).
