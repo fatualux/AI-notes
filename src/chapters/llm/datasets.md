@@ -1,6 +1,6 @@
 # Datasets
 
-A dataset is a structured collection of data organized for easy access, management, and analysis. In various domains such as machine learning, data science, and statistics, datasets serve as the primary source of information for training models, conducting experiments, and drawing insights. Here’s an in-depth look at datasets**:
+A dataset is a structured collection of data organized for easy access, management, and analysis. In various domains such as machine learning, data science, and statistics, datasets serve as the primary source of information for training models, conducting experiments, and drawing insights. Here’s an in-depth look at datasets:
 
 ### Components
 
