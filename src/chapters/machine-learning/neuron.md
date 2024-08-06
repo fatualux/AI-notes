@@ -52,9 +52,9 @@ flowchart TD
 
 | **Layer**                | **Color**       |
 |--------------------------|-----------------|
-| **Input**                | ![#ffcccc](https://via.placeholder.com/15/ffcccc/ffcccc.png) Light Pink |
-| **Weights and Activation Function** | ![#ccccff](https://via.placeholder.com/15/ccccff/ccccff.png) Light Blue |
-| **Output**               | ![#ccffcc](https://via.placeholder.com/15/ccffcc/ccffcc.png) Light Green |
+| **Input**                | ![#ffcccc](https://via.placeholder.com/15/ffcccc/ffcccc.png) |
+| **Weights and Activation Function** | ![#ccccff](https://via.placeholder.com/15/ccccff/ccccff.png) |
+| **Output**               | ![#ccffcc](https://via.placeholder.com/15/ccffcc/ccffcc.png) |
 
 ### Structure of a Neuron
 

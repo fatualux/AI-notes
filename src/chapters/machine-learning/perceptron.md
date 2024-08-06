@@ -49,11 +49,11 @@ flowchart TD
 
 | **Component**            | **Color**       |
 |--------------------------|-----------------|
-| **Input**                | ![#ffcccc](https://via.placeholder.com/15/ffcccc/ffcccc.png) Light Pink |
-| **Weights & Bias**       | ![#ccccff](https://via.placeholder.com/15/ccccff/ccccff.png) Light Blue |
-| **Net Sum**              | ![#ffffcc](https://via.placeholder.com/15/ffffcc/ffffcc.png) Light Yellow |
-| **Activation Function**  | ![#ccffcc](https://via.placeholder.com/15/ccffcc/ccffcc.png) Light Green |
-| **Output**               | ![#ffcce0](https://via.placeholder.com/15/ffcce0/ffcce0.png) Light Pink |
+| **Input**                | ![#ffcccc](https://via.placeholder.com/15/ffcccc/ffcccc.png) |
+| **Weights & Bias**       | ![#ccccff](https://via.placeholder.com/15/ccccff/ccccff.png) |
+| **Net Sum**              | ![#ffffcc](https://via.placeholder.com/15/ffffcc/ffffcc.png) |
+| **Activation Function**  | ![#ccffcc](https://via.placeholder.com/15/ccffcc/ccffcc.png) |
+| **Output**               | ![#ffcce0](https://via.placeholder.com/15/ffcce0/ffcce0.png) |
 
 ### Components of a Perceptron
 

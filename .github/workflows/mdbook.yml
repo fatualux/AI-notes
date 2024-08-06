@@ -25,36 +25,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  run:
     runs-on: ubuntu-latest
-    env:
-      MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdBook
-        run: |
-          curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
-          rustup update
-          cargo install --version ${MDBOOK_VERSION} mdbook
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      - name: Build with mdBook
-        run: mdbook build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: jontze/action-mdbook@v3
         with:
-          path: ./book
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          token: ${{secrets.GITHUB_TOKEN}}
+          # Optional Plugins have to be enabled with a version
+          mdbook-version: "~0.3.0" # Use a semver compatible string
+          use-linkcheck: true
+          linkcheck-version: "~0.7.0"
+          use-mermaid: true
+          mermaid-version: "~0.8.0"
+          use-toc: true
+          toc-version: "~0.7.0"
+          use-opengh: true
+          opengh-version: "~2.0.0"
+          use-admonish: true
+          admonish-version: "~1.8.0"
+          use-katex: true
+          admonish-version: "~0.2.17"
+      - name: Show mdbook version
+        run: mdbook --version
+      - name: Show linkchecker version
+        run: mdbook-linkcheck --version
+      - name: Show mermaid version
+        run: mdbook-mermaid --version
+      - name: Show toc version
+        run: mdbook-toc --version
+      - name: Show open-on-gh version
+        run: mdbook-open-on-gh --version
+      - name: Show admonish version
+        run: mdbook-admonish --version
+      - name: Show katex version
+        run: mdbook-katex --version
