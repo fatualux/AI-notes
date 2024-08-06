@@ -36,7 +36,7 @@ jobs:
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           # Optional Plugins have to be enabled with a version
-          mdbook-version: "~0.3.0" # Use a semver compatible string
+          mdbook-version: "~0.4.18"
           use-linkcheck: true
           linkcheck-version: "~0.7.0"
           use-mermaid: true
