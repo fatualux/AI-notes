@@ -8,25 +8,25 @@ The formula for lasso regression is:
 
 \\[ \hat{Y} = X \beta + \epsilon \\]
 
-where \\( \beta \\\) is estimated by minimizing the following objective function:
+where \\\( \beta \\\) is estimated by minimizing the following objective function:
 
 \\[ \text{Cost Function} = \|Y - X\beta\|^2 + \lambda \|\beta\|_1 \\]
 
 where:
 
-- **\( Y \\)**: Response variable.
-- **\( X \\)**: Predictor variables.
-- **\( \beta \\)**: Coefficients to be estimated.
-- **\( \lambda \\)**: Regularization parameter (also known as lasso penalty).
-- **\( \|\beta\|_1 \\**: L1 norm of the coefficients, which is the sum of the absolute values of the coefficients.
+- **\\( Y \\)**: Response variable.
+- **\\( X \\)**: Predictor variables.
+- **\\( \beta \\)**: Coefficients to be estimated.
+- **\\( \lambda \\)**: Regularization parameter (also known as lasso penalty).
+- **\\( \|\beta\|_1 \\)**: L1 norm of the coefficients, which is the sum of the absolute values of the coefficients.
 
 ### Table of Terms
 
 | Formula       | Meaning                | Interpretation                                                   |
 |---------------|------------------------|-------------------------------------------------------------------|
-| \(\\|Y - X\beta\|^2\\) | **Residual Sum of Squares (RSS)** | Measures the difference between observed and predicted values |
-| \(\\lambda \|\beta\|_1\\) | **Regularization Term** | Penalizes the absolute size of coefficients, encouraging sparsity |
-| \(\\lambda\\)   | ***Regularization Parameter*** | Controls the strength of the penalty; higher values increase regularization |
+| \\(\|Y - X\beta\|^2\\) | **Residual Sum of Squares (RSS)** | Measures the difference between observed and predicted values |
+| \\(\lambda \|\beta\|_1\\) | **Regularization Term** | Penalizes the absolute size of coefficients, encouraging sparsity |
+| \\(\lambda\\)   | ***Regularization Parameter*** | Controls the strength of the penalty; higher values increase regularization |
 
 ## Components
 
@@ -52,7 +52,7 @@ where:
 
 ## Challenges
 
-- **Choice of \(\\lambda\\)**: Selecting the appropriate value for the regularization parameter \(\\lambda\\) is crucial. Cross-validation is commonly used to determine the optimal value.
+- **Choice of \\(\lambda\\)**: Selecting the appropriate value for the regularization parameter \\(\lambda\\) is crucial. Cross-validation is commonly used to determine the optimal value.
 - **Model Interpretation**: While lasso regression helps in feature selection, the resulting model may still require careful interpretation, especially with correlated features.
 
 ## Applications
