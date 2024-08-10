@@ -1,9 +1,9 @@
+# Introduction
+- [Overview](./overview.md)
+
 # Summary
 
 - [Table of Contents](./SUMMARY.md)
-
-# Introduction
-- [Overview](./overview.md)
 
 # Generative AI
 - [What is Generative AI?](./chapters/overview.md)
