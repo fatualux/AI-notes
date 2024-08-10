@@ -48,14 +48,6 @@ flowchart TD
 | **Activation Function**  | A function applied to the weighted sum of inputs and bias to produce the output. |
 | **Output**               | The result produced by the neuron after applying the activation function.       |
 
-### Color Coding
-
-| **Layer**                | **Color**       |
-|--------------------------|-----------------|
-| **Input**                | ![#ffcccc](https://via.placeholder.com/15/ffcccc/ffcccc.png) |
-| **Weights and Activation Function** | ![#ccccff](https://via.placeholder.com/15/ccccff/ccccff.png) |
-| **Output**               | ![#ccffcc](https://via.placeholder.com/15/ccffcc/ccffcc.png) |
-
 ### Structure of a Neuron
 
 An artificial neuron receives inputs, each multiplied by a weight. The weighted inputs are then summed and passed through an activation function to produce an output.
