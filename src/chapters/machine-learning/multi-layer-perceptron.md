@@ -45,14 +45,6 @@ graph TD
 | **Weights**        | Parameters that adjust the strength of the connections between neurons.         |
 | **Activation Functions** | Functions applied to the weighted sum of inputs and bias to introduce non-linearity. |
 
-### Color Coding
-
-| **Layer**          | **Color**       |
-|--------------------|-----------------|
-| **Input Layer**    | ![#f9f](https://via.placeholder.com/15/f9f/f9f.png) |
-| **Hidden Layer**   | ![#ccf](https://via.placeholder.com/15/ccf/ccf.png) |
-| **Output Layer**   | ![#cfc](https://via.placeholder.com/15/cfc/cfc.png) |
-
 #### Building Blocks of Neural Networks
 
 1. **Neurons**:
