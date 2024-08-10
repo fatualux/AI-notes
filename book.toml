@@ -17,3 +17,4 @@ additional-js = ["mermaid.min.js", "mermaid-init.js"]
 mathjax-support = true
 
 [output.pdf]
+optional = true
