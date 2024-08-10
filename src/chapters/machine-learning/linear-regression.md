@@ -14,10 +14,10 @@ The formula for a simple linear regression model is:
 
 where:
 
-- **\( Y \)**: Response variable (dependent variable).
-- **\( X \)**: Predictor variable (independent variable).
-- **\( m \)**: Slope coefficient.
-- **\( b \)**: Intercept parameter.
+- **\\( Y \\)**: Response variable (dependent variable).
+- **\\( X \\)**: Predictor variable (independent variable).
+- **\\( m \\)**: Slope coefficient.
+- **\\( b \\)**: Intercept parameter.
 
 ### Table of Terms
 
