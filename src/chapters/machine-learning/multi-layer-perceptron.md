@@ -58,13 +58,45 @@ graph TD
 2. **Weights**:
    - **Description**: Parameters that are learned during training. They represent the strength of the connections between neurons. Each connection between neurons has an associated weight that adjusts as the network learns.
 
-3. **Activation Functions**:
-   - **Purpose**: Introduce non-linearity into the model, allowing the network to learn complex patterns.
-   - **Common Functions**:
-     - **Sigmoid**: \\( \sigma(x) = \frac{1}{1 + e^{-x}} \\) - Maps input to a value between 0 and 1.
-     - **ReLU (Rectified Linear Unit)**: \\( \text{ReLU}(x) = \max(0, x) \\) - Outputs the input directly if positive; otherwise, outputs zero.
-     - **Tanh**: \\( \text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \\) - Maps input to a value between -1 and 1.
-     - **Gelu (Gaussian Error Linear Unit)**: \\( \text{GELU}(x) = x \cdot \sigma(\text{tanh}(x)) \\) - Maps input to a value between -1 and 1.
+**Activation Functions**:
+- **Purpose**: Activation functions introduce non-linearity into a neural network model, which allows the network to learn and represent complex patterns. Without them, the model would only be able to learn linear relationships, severely limiting its ability to solve complex problems.
+
+- **Common Functions**:
+  - **Sigmoid**: 
+    - **Formula**: \\( \sigma(x) = \frac{1}{1 + e^{-x}} \\)
+    - **Explanation**: The sigmoid function takes any real-valued number and maps it to a value between 0 and 1. 
+      - **Key points**: 
+        - As the input \\( x \\) becomes large and positive, the output approaches 1.
+        - As the input becomes large and negative, the output approaches 0.
+        - At \\( x = 0 \\), the output is 0.5.
+      - **Use case**: It's often used in the final layer of a neural network for binary classification, where the output represents a probability.
+
+  - **ReLU (Rectified Linear Unit)**:
+    - **Formula**: \\( \text{ReLU}(x) = \max(0, x) \\)
+    - **Explanation**: The ReLU function outputs the input directly if it's positive; otherwise, it outputs zero. 
+      - **Key points**: 
+        - For any positive input, ReLU returns that same value.
+        - For any negative input or zero, ReLU returns zero.
+      - **Use case**: ReLU is very popular because it is simple and helps prevent issues like vanishing gradients, making it effective for deep networks.
+
+  - **Tanh**:
+    - **Formula**: \\( \text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \\)
+    - **Explanation**: The tanh function maps the input to a value between -1 and 1.
+      - **Key points**: 
+        - Like the sigmoid function, but centered around 0. 
+        - For large positive inputs, tanh approaches 1.
+        - For large negative inputs, tanh approaches -1.
+        - At \\( x = 0 \\), the output is 0.
+      - **Use case**: Tanh is often used when you want to ensure that the output of a neuron is centered around zero, which can help in faster convergence during training.
+
+  - **Gelu (Gaussian Error Linear Unit)**:
+    - **Formula**: \\( \text{GELU}(x) = x \cdot \sigma(\text{tanh}(x)) \\)
+    - **Explanation**: GELU is a more advanced activation function that combines aspects of both ReLU and sigmoid/tanh. 
+      - **Key points**:
+        - It smoothly blends the behavior of the input, with a probabilistic aspect coming from the sigmoid function.
+        - Unlike ReLU, which sharply changes at 0, GELU makes this transition smoother.
+        - It can be thought of as scaling the input by a factor that depends on the value of the input itself.
+      - **Use case**: GELU is used in some of the latest neural networks, such as transformers, due to its ability to model complex, non-linear behaviors more effectively.
 
 #### Layers in Neural Networks
 

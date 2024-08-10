@@ -14,29 +14,25 @@
 
 ### Key Components:
 
-[**Datasets**](../llm/datasets.md): The data used for training and evaluating the model, often split into training, validation, and test sets.
+[**Datasets**](../models/datasets.md): The data used for training and evaluating the model, often split into training, validation, and test sets.
 
-**Features**: The input variables or attributes used by the model to make predictions.
+[**Features**](./features.md): The input variables or attributes used by the model to make predictions.
 
-[**Model**](../llm/overview.md): The mathematical representation that learns from data and makes predictions.
+[**Model**](../models/overview.md): The mathematical representation that learns from data and makes predictions.
 
-**Training**: The process of optimizing the model's parameters using data.
+[**Training**](../models/training.md): The process of optimizing the model's parameters using data.
 
-**Evaluation**: Assessing the model's performance using metrics like accuracy, precision, recall, and F1-score.
+[**Validation**](../models/evaluation.md): Assessing the model's performance using metrics like accuracy, precision, recall, and F1-score.
 
 ### Algorithms and Techniques:
 
-**Linear Regression**: Predicting continuous outcomes based on linear relationships between input features.
+[**Regression**](../regression.md): A statistical model that predicts a numerical value based on a set of features.
 
-**Logistic Regression**: A classification algorithm used to predict binary outcomes.
+[**Decision Trees**](../models/decision-trees.md): A tree-based model that classifies data based on the values of features.
 
-**Decision Trees**: A model that splits data into branches to make predictions based on feature values.
-
-**Support Vector Machines (SVM)**: A classifier that finds the optimal hyperplane separating different classes.
+[**Support Vector Machines (SVM)**](../models/svm.md): A classifier that finds the optimal hyperplane separating different classes.
 
 [**Neural Networks**](../machine-learning/neural-networks.md): Computational models inspired by the human brain, consisting of layers of interconnected nodes (neurons).
-
-**k-Nearest Neighbors (k-NN)**: A simple, instance-based learning algorithm that classifies based on the majority class among the k nearest data points.
 
 **Ensemble Methods**: Techniques that combine multiple models to improve performance, such as Random Forests and Gradient Boosting.
 
