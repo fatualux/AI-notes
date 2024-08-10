@@ -8,24 +8,24 @@ The formula for ridge regression is:
 
 \\[ \hat{Y} = X \beta + \epsilon \\]
 
-where \\( \beta \\) is estimated by minimizing the following objective function:
+where \\\( \beta \\\) is estimated by minimizing the following objective function:
 
 \\[ \text{Cost Function} = \|Y - X\beta\|^2 + \lambda \|\beta\|^2 \\]
 
 where:
 
-- **\( Y \)**: Response variable.
-- **\( X \)**: Predictor variables.
-- **\( \beta \)**: Coefficients to be estimated.
-- **\( \lambda \)**: Regularization parameter (also known as ridge penalty).
+- **\\( Y \\)**: Response variable.
+- **\\( X \\)**: Predictor variables.
+- **\\( \beta \\)**: Coefficients to be estimated.
+- **\\( \lambda \\)**: Regularization parameter (also known as ridge penalty).
 
 ### Table of Terms
 
 | Formula       | Meaning                | Interpretation                                                       |
 |---------------|------------------------|-----------------------------------------------------------------------|
-| \(\|Y - X\beta\|^2\) | **Residual Sum of Squares (RSS)** | Measures the difference between observed and predicted values |
-| \(\lambda \|\beta\|^2\) | **Regularization Term** | Penalizes large coefficients to prevent overfitting                    |
-| \(\lambda\)   | ***Regularization Parameter*** | Controls the strength of the penalty; higher values increase regularization |
+| \\(\|Y - X\beta\|^2\\) | **Residual Sum of Squares (RSS)** | Measures the difference between observed and predicted values |
+| \\(\lambda \|\beta\|^2\\) | **Regularization Term** | Penalizes large coefficients to prevent overfitting                    |
+| \\(\lambda\\)   | ***Regularization Parameter*** | Controls the strength of the penalty; higher values increase regularization |
 
 ## Components
 
@@ -39,7 +39,7 @@ where:
 
   \\[ \hat{\beta} = (X^TX + \lambda I)^{-1}X^TY \\]
 
-  where \( I \) is the identity matrix.
+  where \\( I \\) is the identity matrix.
 
 - **Cost Function**: The cost function includes both the residual sum of squares and the regularization term:
 
@@ -55,7 +55,7 @@ where:
 
 ## Challenges
 
-- **Choice of \(\lambda\)**: Selecting the appropriate value for the regularization parameter \(\lambda\) is crucial. Cross-validation is often used to determine the optimal value.
+- **Choice of \\(\lambda\\)**: Selecting the appropriate value for the regularization parameter \\(\lambda\\) is crucial. Cross-validation is often used to determine the optimal value.
 - **Interpretability**: The introduction of regularization can make the model harder to interpret compared to ordinary least squares regression.
 
 ## Applications
