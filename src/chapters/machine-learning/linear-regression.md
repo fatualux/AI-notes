@@ -47,8 +47,6 @@ where \\( \beta_0 \\) is the intercept, \\( \beta_1 \\) is the coefficient, \\( 
 
   \\[ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon \\]
 
-- **Polynomial Regression**: Adds polynomial terms to model non-linear relationships.
-
 ## Training
 
 - **Estimation of Coefficients**: Parameters are estimated by minimizing the sum of squared errors (SSE), typically using Ordinary Least Squares (OLS).
