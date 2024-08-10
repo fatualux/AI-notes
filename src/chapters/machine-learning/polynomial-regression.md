@@ -10,11 +10,11 @@ The polynomial regression model is an extension of linear regression where the p
 
 where:
 
-- **\( Y \)**: Response variable.
-- **\( X \)**: Predictor variable.
-- **\( \beta_0, \beta_1, \ldots, \beta_n \)**: Coefficients to be estimated.
-- **\( n \)**: Degree of the polynomial.
-- **\( \epsilon \)**: Error term.
+- **\\( Y \\)**: Response variable.
+- **\\( X \\)**: Predictor variable.
+- **\\( \beta_0, \beta_1, \ldots, \beta_n \\)**: Coefficients to be estimated.
+- **\\( n \\)**: Degree of the polynomial.
+- **\\( \epsilon \\)**: Error term.
 
 ### Table of Terms
 
