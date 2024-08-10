@@ -10,10 +10,10 @@ The logistic regression model predicts the probability of a binary outcome using
 
 where:
 
-- **\( P(Y = 1 \mid X) \)**: Probability of the response variable \( Y \) being 1 given predictor variable \( X \).
-- **\( \beta_0 \)**: Intercept term.
-- **\( \beta_1 \)**: Coefficient for the predictor variable \( X \).
-- **\( e \)**: Base of the natural logarithm (approximately 2.718).
+- **\\( P(Y = 1 \mid X) \\)**: Probability of the response variable \\( Y \\) being 1 given predictor variable \\( X \\).
+- **\\( \beta_0 \\)**: Intercept term.
+- **\\( \beta_1 \\)**: Coefficient for the predictor variable \\( X \\).
+- **\\( e \\)**: Base of the natural logarithm (approximately 2.718).
 
 ### Table of Terms
 
