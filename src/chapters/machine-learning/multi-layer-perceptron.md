@@ -61,10 +61,10 @@ graph TD
 3. **Activation Functions**:
    - **Purpose**: Introduce non-linearity into the model, allowing the network to learn complex patterns.
    - **Common Functions**:
-     - **Sigmoid**: \( \sigma(x) = \frac{1}{1 + e^{-x}} \) - Maps input to a value between 0 and 1.
-     - **ReLU (Rectified Linear Unit)**: \( \text{ReLU}(x) = \max(0, x) \) - Outputs the input directly if positive; otherwise, outputs zero.
-     - **Tanh**: \( \text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \) - Maps input to a value between -1 and 1.
-     - **Gelu (Gaussian Error Linear Unit)**: \( \text{GELU}(x) = x \cdot \sigma(\text{tanh}(x)) \) - Maps input to a value between -1 and 1.
+     - **Sigmoid**: \\( \sigma(x) = \frac{1}{1 + e^{-x}} \\) - Maps input to a value between 0 and 1.
+     - **ReLU (Rectified Linear Unit)**: \\( \text{ReLU}(x) = \max(0, x) \\) - Outputs the input directly if positive; otherwise, outputs zero.
+     - **Tanh**: \\( \text{tanh}(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \\) - Maps input to a value between -1 and 1.
+     - **Gelu (Gaussian Error Linear Unit)**: \\( \text{GELU}(x) = x \cdot \sigma(\text{tanh}(x)) \\) - Maps input to a value between -1 and 1.
 
 #### Layers in Neural Networks
 
