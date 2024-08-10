@@ -10,10 +10,6 @@ Generative AI has its roots in early AI research and was significantly advanced 
 
 - **1966**: **Eliza**, an early chatbot developed by Joseph Weizenbaum, showcased the potential of conversational AI. Eliza used pattern matching and substitution to simulate conversation but lacked true understanding or creativity.
 
-## Key Developments
-
-Generative AI gained prominence with several advancements:
-
 - **2014**: The introduction of **Generative Adversarial Networks (GANs)** marked a significant milestone in generative AI. GANs consist of two neural networks—the generator and the discriminator—that work against each other to produce increasingly realistic data. This breakthrough enabled the generation of high-quality images, videos, and text.
 
 ### Key Concepts
