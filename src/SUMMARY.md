@@ -38,5 +38,5 @@
     - [Support Vector Machines](./chapters/models/svm.md)
 
 # RAG
-    - [What is RAG?](./chapters/rag/rag.md)
-    - [Embedders](./chapters/rag/embedders.md)
+- [What is RAG?](./chapters/rag/rag.md)
+- [Embedders](./chapters/rag/embedders.md)
