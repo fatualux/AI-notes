@@ -1,4 +1,4 @@
-# Notes about IT
+# Notes about AI
 
 ### This is my third digital book, generated with mdBook, a command line tool to create books with Markdown.
 
