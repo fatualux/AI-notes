@@ -36,3 +36,7 @@
     - [Evaluation](./chapters/models/evaluation.md)
     - [Decision Trees](./chapters/models/decision-trees.md)
     - [Support Vector Machines](./chapters/models/svm.md)
+
+# RAG
+    - [What is RAG?](./chapters/rag/rag.md)
+    - [Embedders](./chapters/rag/embedders.md)
